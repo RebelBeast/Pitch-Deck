@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+/* Quelle: https://stackoverflow.com/questions/43186015/css-hide-scroll-bar-but-have-element-scrollable */
+
+.navbar {
+    background-color: #333333;
+    height: 10vh;
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 3px 6px 6px #222222;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+h1 {
+    color: #fff;
+    text-align: left;
+    padding-block-start: 20px;
+    padding-left: 30px;
+}
+
+body {
+    background-size: cover;
+    background-image: url(SL_042620_30310_19.jpg);
+}
+/* Bildquelle: https://de.freepik.com/vektoren-kostenlos/stilvoller-weisser-hintergrund-mit-diagonalen-linien_17564656.htm#query=simple%20background&position=7&from_view=search&track=ais*/
+
