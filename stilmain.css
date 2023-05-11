@@ -12,6 +12,7 @@
     width: 200%; 
     height: 200%;
     z-index: -1;
+    filter: brightness(70%);
   }
   .bg img {
     position: absolute; 
