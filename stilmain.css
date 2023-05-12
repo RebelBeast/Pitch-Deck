@@ -66,6 +66,7 @@ body {
     width: 0;
     background: transparent; 
 }
+/* Quelle: https://stackoverflow.com/questions/43186015/css-hide-scroll-bar-but-have-element-scrollable */
 
 .pitch {
     display: flex;
@@ -93,6 +94,7 @@ body {
 [contentEditable=true]:empty:not(:focus):before {
     content: attr(data-text)
   }
+/* Quelle: https://stackoverflow.com/questions/20300138/is-it-possible-to-add-placeholder-in-div-tag */ 
 
 .text1 {
     color: black;
